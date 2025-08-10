@@ -15,8 +15,8 @@ const Banner = () => {
     }, []);
 
     return (
-        <div className="lg:flex items-center justify-between min-h-[300px] bg-base-100 px-6">
-            <div className="lg:w-1/2 space-y-6">
+        <div className="lg:flex items-center justify-between min-h-[300px] bg-base-100 ">
+            <div className="lg:w-1/2 space-y-6 pl-3 sm:ps-12 lg:pl-24">
                 <h5 className="text-base text-primary mb-2">CARING STARTS HERE</h5>
                 <h1 className="text-3xl lg:text-7xl font-semibold">
                     Protecting your child's{" "}
@@ -31,10 +31,12 @@ const Banner = () => {
                     How can we help
                 </button>
             </div>
-            <div className="w-1/2">
-                <figure>
-                    <Image src={'https://i.ibb.co.com/bkYcz48/Screenshot-2025-08-11-001500.png'} width={450} height={450} />
-                </figure>
+            <div className="w-1/2 bg-secondary py-24 rounded-bl-4xl">
+                <div>
+                    <figure>
+                        <Image src={'https://i.ibb.co.com/bkYcz48/Screenshot-2025-08-11-001500.png'} width={600} height={600} className="rounded-r-2xl" />
+                    </figure>
+                </div>
             </div>
         </div>
     );

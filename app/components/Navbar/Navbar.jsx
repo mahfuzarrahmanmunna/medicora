@@ -37,7 +37,7 @@ const Navbar = () => {
         ));
 
     return (
-        <div className="flex justify-between items-center py-3 bg-base-100 shadow-sm px-3 sm:px-12 lg:px-24 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+        <div className="flex justify-between items-center py-3 bg-base-100 border-b border-gray-200 px-3 sm:px-12 lg:px-24 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
             {/* Left - Logo & Mobile Menu */}
             <div className="navbar-start">
                 <div className="dropdown">
@@ -73,7 +73,7 @@ const Navbar = () => {
                     href="/appointment"
                     className="btn btn-primary btn-sm px-5 py-5 md:text-base text-white  rounded-full transition-transform duration-300 hover:scale-105"
                 >
-                    Book Appointment 
+                    Book Appointment
                 </Link>
             </div>
         </div>

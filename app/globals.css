@@ -7,5 +7,5 @@
   name: "light";
   default: true;
   --color-primary: #ed9282;
-  --color-secondary: teal;
+  --color-secondary: #f3f3f7;
 }
