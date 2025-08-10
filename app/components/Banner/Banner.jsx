@@ -34,7 +34,7 @@ const Banner = () => {
             <div className="w-1/2 bg-secondary py-24 rounded-bl-4xl">
                 <div>
                     <figure>
-                        <Image src={'https://i.ibb.co.com/bkYcz48/Screenshot-2025-08-11-001500.png'} width={600} height={600} className="rounded-r-2xl" />
+                        <Image src={'https://i.ibb.co.com/bkYcz48/Screenshot-2025-08-11-001500.png'} alt="banner" width={600} height={600} className="rounded-r-2xl" />
                     </figure>
                 </div>
             </div>
